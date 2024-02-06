@@ -98,3 +98,32 @@ nav ul {
   flex-direction: column;
   gap: 36px;
 }
+
+
+
+
+
+
+@media (max-width : 769px) {
+  .navlinks {
+      display: none ;
+    }
+  .Herocontent h1 {
+     font-size : 54px ;
+     line-height: 50px;
+  }
+
+  .Heroimage img{
+    width: 321px;
+  }
+
+  .Hero{
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+  }
+  .Herobuttons{
+    gap: 10px;
+  }
+
+  
+}

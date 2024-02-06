@@ -4,17 +4,17 @@ const Navbar = () => {
 
     return(
         <>
-        <nav>
+        <nav className="navbar">
             <div className="logo">
               <img src="../public/imgs/brand_logo.png" alt="" />
             </div>
-            <ul>
+            <ul className="navlinks">
               <li href="#">Menu</li>
               <li href="#">Location</li>
               <li href="#">About</li>
               <li href="#">Contact</li>
             </ul>
-            <button>Login</button>
+            <button className="loginnbtn">Login</button>
           </nav>
         </>
     )
